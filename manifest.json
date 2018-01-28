@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Scroll to Nearest Anchor",
+  "version": "1.0",
+  "author": "Rob Hoelz",
+  "homepage_url": "https://github.com/hoelzro/fx-scroll-to-nearest-anchor",
+
+  "description": "A simple extension to help you scroll to the nearest HTML anchor on a page",
+
+  "background": {
+      "scripts": [ "scroll-to-nearest-anchor.js" ]
+  },
+
+  "permissions": [
+      "<all_urls>",
+      "menus"
+  ]
+}
